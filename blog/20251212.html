@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 記事タイトルは具体的かつ検索されやすいキーワードを含める -->
+    <title>【地震速報】2025年12月1日 ○○地方で震度5強の地震発生 津波の心配なし | 防災ニュース速報 Japan</title>
+    
+    <!-- ディスクリプション: スニペット用。要点を120文字程度で -->
+    <meta name="description" content="2025年12月1日14時30分頃、○○地方を震源とするマグニチュード5.8の地震が発生しました。最大震度は5強。気象庁によるとこの地震による津波の心配はありません。現在の被害状況と交通機関への影響、今後の余震への注意点をまとめました。">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://example.com/blog/20251201/index.html">
+
+    <!-- OGP / Twitter Card -->
+    <meta property="og:title" content="【地震速報】2025年12月1日 ○○地方で震度5強の地震発生">
+    <meta property="og:description" content="14時30分頃発生。津波の心配なし。交通機関への影響と今後の注意点まとめ。">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://example.com/blog/20251201/index.html">
+    <meta property="og:image" content="https://example.com/og/earthquake.png">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- 構造化データ (NewsArticle) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "【地震速報】2025年12月1日 ○○地方で震度5強の地震発生 津波の心配なし",
+      "image": [
+        "https://example.com/og/earthquake.png"
+      ],
+      "datePublished": "2025-12-01T14:45:00+09:00",
+      "dateModified": "2025-12-01T15:30:00+09:00",
+      "author": {
+        "@type": "Organization",
+        "name": "防災ニュース速報 Japan 編集部",
+        "url": "https://example.com/profile.html"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "防災ニュース速報 Japan",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://example.com/logo.png"
+        }
+      },
+      "description": "2025年12月1日14時30分頃、○○地方を震源とする最大震度5強の地震が発生しました。"
+    }
+    </script>
+
+    <style>
+        /* 相対パスで読み込むか、共通ファイルを置く想定だが、ここでは単体動作のためCSSを内包 */
+        :root {
+            --primary-color: #d32f2f;
+            --secondary-color: #1976d2;
+            --text-color: #333;
+            --bg-color: #f4f5f7;
+            --white: #fff;
+            --border-color: #ddd;
+        }
+        body {
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.8; /* 記事の可読性のため少し広め */
+        }
+        a { color: var(--secondary-color); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* レイアウト */
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 15px; }
+        .site-header { background: var(--white); border-bottom: 1px solid var(--border-color); padding: 15px 0; }
+        .header-inner { display: flex; justify-content: space-between; align-items: center; }
+        .site-title { font-size: 24px; font-weight: bold; color: var(--primary-color); margin: 0; }
+        .main-nav ul { display: flex; list-style: none; margin: 0; padding: 0; }
+        .main-nav li { margin-left: 20px; }
+
+        .breadcrumbs { margin: 15px 0; font-size: 14px; color: #666; }
+        .breadcrumbs ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; }
+        .breadcrumbs li::after { content: ">"; margin: 0 8px; color: #ccc; }
+        .breadcrumbs li:last-child::after { content: ""; }
+
+        .content-area { display: flex; flex-wrap: wrap; gap: 30px; margin-bottom: 40px; }
+        .main-content { flex: 1; min-width: 0; background: var(--white); padding: 30px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .sidebar { width: 300px; flex-shrink: 0; }
+
+        /* 記事個別スタイル */
+        .post-meta { font-size: 14px; color: #777; margin-bottom: 15px; display: flex; gap: 15px; }
+        .post-category { background: var(--primary-color); color: #fff; padding: 2px 8px; border-radius: 3px; font-size: 12px; }
+        .post-thumbnail { width: 100%; height: auto; margin-bottom: 20px; border-radius: 4px; border: 1px solid #eee; }
+        
+        h1 { font-size: 26px; margin-bottom: 20px; line-height: 1.4; }
+        h2 { font-size: 22px; margin-top: 40px; margin-bottom: 20px; border-left: 5px solid var(--primary-color); padding-left: 15px; background: #fafafa; padding: 10px 15px; }
+        h3 { font-size: 19px; margin-top: 30px; margin-bottom: 15px; font-weight: bold; border-bottom: 2px solid #eee; padding-bottom: 5px; }
+        p { margin-bottom: 1.8em; font-size: 16px; }
+
+        .alert-box {
+            background-color: #fff3e0;
+            border: 1px solid #ffcc80;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .alert-title { font-weight: bold; color: #e65100; display: block; margin-bottom: 5px; }
+        
+        /* 関連記事 */
+        .related-posts { margin-top: 50px; border-top: 1px solid #eee; padding-top: 30px; }
+        .related-title { font-size: 20px; font-weight: bold; margin-bottom: 20px; }
+        
+        /* サイドバー */
+        .widget { background: var(--white); padding: 20px; margin-bottom: 20px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .widget-title { font-size: 16px; font-weight: bold; margin-bottom: 15px; border-bottom: 1px solid var(--border-color); padding-bottom: 5px; }
+        .widget ul { list-style: none; padding: 0; margin: 0; }
+        .widget li { margin-bottom: 10px; border-bottom: 1px dashed #eee; padding-bottom: 5px; }
+
+        .site-footer { background: #333; color: #fff; padding: 40px 0; font-size: 14px; }
+        .footer-links a { color: #ccc; margin-right: 15px; }
+
+        @media (max-width: 768px) {
+            .content-area { flex-direction: column; }
+            .sidebar { width: 100%; }
+            .header-inner { flex-direction: column; align-items: flex-start; }
+            .main-nav { margin-top: 10px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="site-branding">
+                <p class="site-title"><a href="../../index.html" style="color: inherit;">防災ニュース速報 Japan</a></p>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../../index.html">ホーム</a></li>
+                    <li><a href="../../profile.html">運営者情報</a></li>
+                    <li><a href="../../terms.html">利用規約</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- パンくずリスト：階層構造を正確に -->
+        <nav class="breadcrumbs">
+            <ul>
+                <li><a href="../../index.html">ホーム</a></li>
+                <li><a href="../../category/earthquake.html">地震情報</a></li>
+                <li>2025年12月1日 ○○地方地震速報</li>
+            </ul>
+        </nav>
+
+        <div class="content-area">
+            <main class="main-content">
+                <!-- 記事ヘッダー情報 -->
+                <div class="post-meta">
+                    <span class="post-date"><time datetime="2025-12-01">2025.12.01</time></span>
+                    <span class="post-update">更新：<time datetime="2025-12-01T15:30:00">15:30</time></span>
+                    <span class="post-category">地震情報</span>
+                </div>
+
+                <h1>【地震速報】2025年12月1日 ○○地方で震度5強の地震発生 津波の心配なし</h1>
+                
+                <!-- アイキャッチ画像 (ダミー) -->
+                <figure>
+                     <!-- 実際の運用ではwidth/heightを指定しCLSを防ぐ -->
+                    <img src="https://placehold.co/800x450/e0e0e0/333333?text=Breaking+News+Earthquake" alt="地震速報イメージ" class="post-thumbnail" width="800" height="450">
+                    <figcaption style="font-size: 12px; color: #666; text-align: right;">画像：イメージ</figcaption>
+                </figure>
+
+                <!-- 導入文 (リード) -->
+                <p class="lead" style="font-weight: bold;">
+                    2025年12月1日14時30分頃、○○地方を震源とする地震がありました。震源の深さは約10km、地震の規模を示すマグニチュードは5.8と推定されます。この地震による津波の心配はありません。
+                </p>
+
+                <div class="alert-box">
+                    <span class="alert-title">⚠️ 緊急情報</span>
+                    <p style="margin:0;">揺れの強かった地域では、落石や崖崩れなどの危険性が高まっています。今後の余震活動に十分注意してください。</p>
+                </div>
+
+                <!-- 本文 -->
+                <h2>地震の概要</h2>
+                <p>気象庁の発表による詳細は以下の通りです。</p>
+                <ul>
+                    <li><strong>発生日時：</strong>2025年12月1日 14時30分頃</li>
+                    <li><strong>震源地：</strong>○○地方</li>
+                    <li><strong>震源の深さ：</strong>約10km</li>
+                    <li><strong>マグニチュード：</strong>5.8（推定）</li>
+                    <li><strong>最大震度：</strong>震度5強（○○市、△△町）</li>
+                </ul>
+
+                <h2>被害状況（12月1日 15:30現在）</h2>
+                <p>現在、警察や消防が被害情報の確認を急いでいます。</p>
+                <h3>人的被害</h3>
+                <p>現時点でけが人などの情報は入っていません。詳細が分かり次第、追記します。</p>
+                
+                <h3>建物・インフラ被害</h3>
+                <p>震度5強を観測した○○市の一部地域で、ブロック塀の倒壊や屋根瓦の落下に関する通報が数件寄せられています。</p>
+
+                <h2>交通機関・ライフラインへの影響</h2>
+                <h3>鉄道</h3>
+                <p>○○線は安全確認のため、全線で運転を見合わせています。再開の見込みは立っていません。</p>
+                
+                <h3>電気・ガス・水道</h3>
+                <p>○○電力によると、管内で約500軒の停電が発生しており、復旧作業にあたっています。ガス・水道についての異常は確認されていません。</p>
+
+                <h2>今後の注意点</h2>
+                <p>気象庁は会見で、「今後1週間程度、同程度の地震が発生する恐れがある」として注意を呼びかけています。特に発生から2〜3日程度は、規模の大きな地震が発生することが多いため、以下の点を確認してください。</p>
+                <ul>
+                    <li>家具の転倒防止対策の再確認</li>
+                    <li>非常持ち出し袋の準備</li>
+                    <li>家族との連絡手段の確認</li>
+                </ul>
+
+                <h2>関連リンク・公的情報</h2>
+                <p>最新情報は必ず以下の公的機関のサイトでも確認してください。</p>
+                <ul>
+                    <li><a href="#" target="_blank" rel="nofollow noopener">気象庁 地震情報</a></li>
+                    <li><a href="#" target="_blank" rel="nofollow noopener">○○県 防災ポータルサイト</a></li>
+                    <li><a href="#" target="_blank" rel="nofollow noopener">○○電力 停電情報</a></li>
+                </ul>
+
+                <!-- 記事更新履歴 -->
+                <div style="background: #f9f9f9; padding: 15px; margin-top: 30px; border: 1px solid #eee;">
+                    <h3 style="margin-top:0; font-size:16px;">更新履歴</h3>
+                    <ul style="font-size: 14px; margin-bottom: 0;">
+                        <li><strong>15:30</strong> - ライフライン情報を追記しました。</li>
+                        <li><strong>15:00</strong> - 交通機関の影響を追記しました。</li>
+                        <li><strong>14:45</strong> - 第一報を公開しました。</li>
+                    </ul>
+                </div>
+
+                <!-- 関連記事 -->
+                <div class="related-posts">
+                    <h3 class="related-title">関連記事</h3>
+                    <ul>
+                        <li><a href="#">【解説】震度5強と6弱の違いとは？体感はどう変わるか</a></li>
+                        <li><a href="#">地震発生時にエレベーターに乗っていた場合の対処法</a></li>
+                        <li><a href="#">2025年の地震発生傾向について：専門家解説</a></li>
+                    </ul>
+                </div>
+
+            </main>
+
+            <!-- サイドバー -->
+            <aside class="sidebar">
+                <div class="widget">
+                    <h3 class="widget-title">新着ニュース</h3>
+                    <ul>
+                        <li><a href="#">【台風情報】台風20号が発生 今後の進路に注意</a></li>
+                        <li><a href="#">○○山で火山性微動を観測 警戒レベル引き上げ</a></li>
+                        <li><a href="#">冬の備え：大雪への対策ガイドライン公開</a></li>
+                    </ul>
+                </div>
+                <div class="widget">
+                    <h3 class="widget-title">カテゴリー</h3>
+                    <ul>
+                        <li><a href="#">地震情報 (Earthquake)</a></li>
+                        <li><a href="#">台風・気象 (Typhoon)</a></li>
+                        <li><a href="#">津波予報 (Tsunami)</a></li>
+                        <li><a href="#">ライフライン (Lifeline)</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="../../profile.html">運営者情報</a>
+                <a href="../../terms.html">利用規約</a>
+                <a href="#">プライバシーポリシー</a>
+                <a href="#">お問い合わせ</a>
+            </div>
+            <p style="margin-top: 20px;">&copy; 2025 防災ニュース速報 Japan All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
