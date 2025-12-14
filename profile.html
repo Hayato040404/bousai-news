@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>運営者情報・編集方針 | 防災ニュース速報 Japan</title>
+    <meta name="description" content="防災ニュース速報 Japanの運営者情報、編集方針、および情報ソースについて。当サイトは気象庁や防災科学技術研究所などの公的情報を基に、迅速かつ正確な災害情報をお届けします。">
+    
+    <!-- SEO / OGP -->
+    <meta property="og:title" content="運営者情報・編集方針 | 防災ニュース速報 Japan">
+    <meta property="og:description" content="当サイトの信頼性、情報ソース、運営体制について。正確な防災情報の提供に努めています。">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://example.com/profile.html">
+    <meta property="og:image" content="https://example.com/og/default.png">
+    <meta name="twitter:card" content="summary">
+
+    <!-- 構造化データ (Organization / AboutPage) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "防災ニュース速報 Japan",
+        "url": "https://example.com",
+        "logo": "https://example.com/logo.png",
+        "foundingDate": "2024-01-01",
+        "description": "国内の災害情報・防災知識を専門に扱うニュースメディア。",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer support",
+          "email": "info@example.com"
+        }
+      }
+    }
+    </script>
+
+    <style>
+        /* 共通CSS (WordPressテーマ風) */
+        :root {
+            --primary-color: #d32f2f; /* 災害系なので警告色としての赤 */
+            --secondary-color: #1976d2; /* 信頼の青 */
+            --text-color: #333;
+            --bg-color: #f4f5f7;
+            --white: #fff;
+            --border-color: #ddd;
+        }
+        body {
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        a { color: var(--secondary-color); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* レイアウト */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        .site-header {
+            background: var(--white);
+            border-bottom: 1px solid var(--border-color);
+            padding: 15px 0;
+        }
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .site-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin: 0;
+        }
+        .main-nav ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .main-nav li { margin-left: 20px; }
+
+        /* パンくずリスト */
+        .breadcrumbs {
+            margin: 15px 0;
+            font-size: 14px;
+            color: #666;
+        }
+        .breadcrumbs ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .breadcrumbs li::after {
+            content: ">";
+            margin: 0 8px;
+            color: #ccc;
+        }
+        .breadcrumbs li:last-child::after { content: ""; }
+
+        /* コンテンツエリア (2カラム) */
+        .content-area {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        .main-content {
+            flex: 1;
+            min-width: 0; /* Flexboxのはみ出し防止 */
+            background: var(--white);
+            padding: 30px;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .sidebar {
+            width: 300px;
+            flex-shrink: 0;
+        }
+
+        /* 記事スタイル */
+        h1 { font-size: 28px; margin-bottom: 20px; border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; }
+        h2 { font-size: 22px; margin-top: 30px; margin-bottom: 15px; border-left: 5px solid var(--primary-color); padding-left: 15px; background: #fafafa; padding-top: 5px; padding-bottom: 5px; }
+        h3 { font-size: 18px; margin-top: 25px; margin-bottom: 10px; font-weight: bold; }
+        p { margin-bottom: 1.5em; }
+        
+        /* サイドバーウィジェット */
+        .widget {
+            background: var(--white);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .widget-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 5px;
+        }
+        .widget ul { list-style: none; padding: 0; margin: 0; }
+        .widget li { margin-bottom: 10px; border-bottom: 1px dashed #eee; padding-bottom: 5px; }
+
+        /* フッター */
+        .site-footer {
+            background: #333;
+            color: #fff;
+            padding: 40px 0;
+            font-size: 14px;
+        }
+        .footer-links a { color: #ccc; margin-right: 15px; }
+
+        /* レスポンシブ */
+        @media (max-width: 768px) {
+            .content-area { flex-direction: column; }
+            .sidebar { width: 100%; }
+            .header-inner { flex-direction: column; align-items: flex-start; }
+            .main-nav { margin-top: 10px; }
+            .main-nav li { margin-left: 0; margin-right: 15px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ヘッダー -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="site-branding">
+                <p class="site-title"><a href="index.html" style="color: inherit;">防災ニュース速報 Japan</a></p>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="profile.html">運営者情報</a></li>
+                    <li><a href="terms.html">利用規約</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- パンくずリスト -->
+        <nav class="breadcrumbs">
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li>運営者情報・編集方針</li>
+            </ul>
+        </nav>
+
+        <div class="content-area">
+            <!-- メインコンテンツ -->
+            <main class="main-content">
+                <h1>運営者情報・編集方針</h1>
+
+                <section>
+                    <h2>サイト概要</h2>
+                    <p>「防災ニュース速報 Japan」は、日本国内で発生する地震、台風、豪雨などの自然災害に関する情報を、迅速かつ正確にお伝えする専門ニュースメディアです。</p>
+                    <p>災害大国である日本において、「正しい情報が命を守る」という信念のもと、公的機関の発表に基づいた信頼性の高い情報を整理して発信しています。</p>
+                </section>
+
+                <section>
+                    <h2>編集方針・情報ソース</h2>
+                    <p>当サイトの記事は、以下の公的機関および信頼できる情報源からの発表をベースに作成しています。不確定な情報の拡散を防ぐため、速報性よりも「正確性」を最優先事項としています。</p>
+                    <h3>主な情報ソース</h3>
+                    <ul>
+                        <li>気象庁 (JMA)</li>
+                        <li>国立研究開発法人 防災科学技術研究所 (NIED)</li>
+                        <li>各自治体の防災情報発信</li>
+                        <li>NHKおよび主要報道機関の災害報道</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>運営者情報</h2>
+                    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+                        <tr style="border-bottom: 1px solid #ddd;">
+                            <th style="text-align: left; padding: 10px; width: 30%; background: #f9f9f9;">サイト名</th>
+                            <td style="padding: 10px;">防災ニュース速報 Japan</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid #ddd;">
+                            <th style="text-align: left; padding: 10px; background: #f9f9f9;">運営責任者</th>
+                            <td style="padding: 10px;">地震速報/気象情報/交通情報 共有オープンチャット<br><span style="font-size: 0.9em; color: #666;">地震速報/気象情報/交通情報 共有オープンチャットの管理人</span></td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid #ddd;">
+                            <th style="text-align: left; padding: 10px; background: #f9f9f9;">所在地</th>
+                            <td style="padding: 10px;">東京都内</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid #ddd;">
+                            <th style="text-align: left; padding: 10px; background: #f9f9f9;">お問い合わせ</th>
+                            <td style="padding: 10px;">info@example.com</td>
+                        </tr>
+                    </table>
+                    <p>
+                        最新の更新情報は、公式X（旧Twitter）アカウントでも配信しています。<br>
+                        <a href="https://x.com/et_openchat" target="_blank" rel="nofollow noopener">@et_openchat をフォローする</a>
+                    </p>
+                </section>
+
+                <section>
+                    <h2>免責事項</h2>
+                    <p>当サイトに掲載している情報は万全を期していますが、その内容の正確性・完全性を保証するものではありません。緊急時の避難行動等は、必ず自治体の指示やテレビ・ラジオ等の公式情報に従ってください。</p>
+                </section>
+            </main>
+
+            <!-- サイドバー -->
+            <aside class="sidebar">
+                <div class="widget">
+                    <h3 class="widget-title">カテゴリー</h3>
+                    <ul>
+                        <li><a href="#">地震情報 (Earthquake)</a></li>
+                        <li><a href="#">台風・気象 (Typhoon)</a></li>
+                        <li><a href="#">津波予報 (Tsunami)</a></li>
+                        <li><a href="#">ライフライン (Lifeline)</a></li>
+                        <li><a href="#">防災コラム (Columns)</a></li>
+                    </ul>
+                </div>
+                <div class="widget">
+                    <h3 class="widget-title">人気の記事</h3>
+                    <ul>
+                        <li><a href="#">【保存版】非常持ち出し袋に入れるべき30選リスト</a></li>
+                        <li><a href="#">南海トラフ地震臨時情報とは？仕組みを解説</a></li>
+                        <li><a href="#">ハザードマップの正しい見方と活用法</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- フッター -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="profile.html">運営者情報</a>
+                <a href="terms.html">利用規約</a>
+                <a href="#">プライバシーポリシー</a>
+                <a href="#">お問い合わせ</a>
+            </div>
+            <p style="margin-top: 20px;">&copy; 2025 防災ニュース速報 Japan All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
