@@ -6,7 +6,7 @@
   
   <!-- トップページ -->
   <url>
-    <loc>https://bousai-news.com/index.html</loc>
+    <loc>https://bousai-news.f5.si/index.html</loc>
     <lastmod>2025-12-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -14,7 +14,7 @@
   
   <!-- 運営者情報ページ -->
   <url>
-    <loc>https://bousai-news.com/profile.html</loc>
+    <loc>https://bousai-news.f5.si/profile.html</loc>
     <lastmod>2025-12-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +22,7 @@
   
   <!-- 利用規約ページ -->
   <url>
-    <loc>https://bousai-news.com/terms.html</loc>
+    <loc>https://bousai-news.f5.si/terms.html</loc>
     <lastmod>2025-12-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
@@ -30,7 +30,7 @@
   
   <!-- ブログ記事 -->
   <url>
-    <loc>https://bousai-news.com/blog/20251212.html</loc>
+    <loc>https://bousai-news.f5.si/blog/20251212.html</loc>
     <lastmod>2025-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -45,7 +45,7 @@
   </url>
   
   <url>
-    <loc>https://bousai-news.com/blog/20260215_typhoon_prep.html</loc>
+    <loc>https://bousai-news.f5.si/blog/20260215_typhoon_prep.html</loc>
     <lastmod>2026-02-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -60,7 +60,7 @@
   </url>
   
   <url>
-    <loc>https://bousai-news.com/blog/20260210_emergency_food.html</loc>
+    <loc>https://bousai-news.f5.si/blog/20260210_emergency_food.html</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -75,7 +75,7 @@
   </url>
   
   <url>
-    <loc>https://bousai-news.com/blog/20260205_disaster_app.html</loc>
+    <loc>https://bousai-news.f5.si/blog/20260205_disaster_app.html</loc>
     <lastmod>2026-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -90,7 +90,7 @@
   </url>
   
   <url>
-    <loc>https://bousai-news.com/blog/20260201_volcano.html</loc>
+    <loc>https://bousai-news.f5.si/blog/20260201_volcano.html</loc>
     <lastmod>2026-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -105,7 +105,7 @@
   </url>
   
   <url>
-    <loc>https://bousai-news.com/blog/20260125_blackout.html</loc>
+    <loc>https://bousai-news.f5.si/blog/20260125_blackout.html</loc>
     <lastmod>2026-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -120,7 +120,7 @@
   </url>
   
   <url>
-    <loc>https://bousai-news.com/blog/20260120_nankai.html</loc>
+    <loc>https://bousai-news.f5.si/blog/20260120_nankai.html</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
