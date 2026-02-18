@@ -134,4 +134,19 @@
     </news:news>
   </url>
 
+<url>
+    <loc>https://bousai-news.f5.si/blog/20260218_phasefree_habits.html</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>防災ニュース速報 Japan</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-02-18</news:publication_date>
+      <news:title>普段の生活がそのまま防災になる｜フェーズフリーな習慣5選【2026年保存版】</news:title>
+    </news:news>
+  </url>
+
 </urlset>
