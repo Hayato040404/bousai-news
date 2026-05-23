@@ -149,4 +149,90 @@
     </news:news>
   </url>
 
+  <!-- 2026-05-23 追加 -->
+  <url>
+    <loc>https://bousai-news.f5.si/blog/20260523_line_openchat.html</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>防災ニュース速報 Japan</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23</news:publication_date>
+      <news:title>LINEオプチャで活きる！災害時の安否確認・情報収集の基本ルール</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bousai-news.f5.si/blog/20260523_100yen_goods.html</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>防災ニュース速報 Japan</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23</news:publication_date>
+      <news:title>【2026年最新】フェーズフリーで選ぶ！100均で買える神防災グッズ</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bousai-news.f5.si/blog/20260523_pet_evacuation.html</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>防災ニュース速報 Japan</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23</news:publication_date>
+      <news:title>ペットと避難、準備してる？最新の同行避難ガイドと必須アイテム</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bousai-news.f5.si/blog/20260523_sns_fake_news.html</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>防災ニュース速報 Japan</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23</news:publication_date>
+      <news:title>災害時のSNSデマに騙されない！正しい情報の見分け方</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bousai-news.f5.si/blog/20260523_disaster_apps.html</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>防災ニュース速報 Japan</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23</news:publication_date>
+      <news:title>防災アプリ＆デジタル備蓄！スマホに入れておくべき必須アプリ</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bousai-news.f5.si/blog/20260523_typhoon_timeline.html</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>防災ニュース速報 Japan</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23</news:publication_date>
+      <news:title>【2026年最新】台風・大雨を生き抜くマイ・タイムラインの作り方と警戒レベルの意味</news:title>
+    </news:news>
+  </url>
+
 </urlset>
